@@ -1,0 +1,82 @@
+3 start 
+program:3 5 3 3 5 3 4 9 3 8
+
+three:3  move_address:0
+one:1 seven:7 two:2 four:4 five:5 nine:9 a:0 jeq:4 jil:5
+
+start:7 program start_address
+2 start_address one move_address
+
+begin:7 start_address:0 a
+4 a three move
+4 a seven copy
+4 a one addition
+4 a two subtraction
+4 a nine stop
+4 a jeq jumpifequal
+4 a jil jumpiflessthan
+
+ 
+
+move:1 start_address one move_address1
+1 move_address move_address1:0 start_address
+3 begin
+
+copy:1 start_address one next_cell1
+1 next_cell1 one next_cell2
+1 next_cell1:0 move_address next_value
+1 next_cell2:0 move_address next_value1
+7 next_value:0 next_value1:0
+1 next_cell2 one start_address
+3 begin
+
+addition:1 start_address one next_address1
+1 next_address1 one next_address2
+1 next_address2 one next_address3
+1 next_address1:0 move_address value1
+1 next_address2:0 move_address value2
+1 next_address3:0 move_address value3
+1 value1:0 value2:0 value3:0
+1 next_address3 one start_address
+3 begin
+
+
+subtraction:1 start_address one next_add1
+1 next_add1 one next_add2
+1 next_add2 one next_add3
+1 next_add1:0 move_address val1
+1 next_add2:0 move_address val2
+1 next_add3:0 move_address val3
+2 val1:0 val2:0 val3:0
+1 next_add3 one start_address
+3 begin
+
+stop:9
+
+
+jumpifequal:1 start_address one b1
+1 b1 one b2
+1 b2 one b3
+4 b1:0 b2:0 true
+1 b3 one start_address
+3 jump 
+true:3 b3:0
+7 b3 start_address
+jump:3 begin
+
+
+jumpiflessthan:1 start_address one c1
+1 c1 one c2
+1 c2 one c3
+5 c1:0 c2:0 true1
+1 c3 one start_address
+3 jump1
+true1:3 c3:0
+7 c3 start_address
+jump1:3 begin
+
+
+
+
+
+
