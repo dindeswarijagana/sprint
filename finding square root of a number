@@ -1,0 +1,13 @@
+3 5 sq:17 res:0
+3 13
+odd1:1 sq1:0 x:0 odd2:2 count:0 sq2:0
+4 sq res stop
+7 sq sq1
+sub:2 sq1 odd1 x
+sub1:2 x sub1 sq2
+add:1 count add count
+5 sq2 odd1 copy 
+7 x sq1
+add1:1 odd1 odd2 odd1
+3 sub
+copy:7 count res stop:9
