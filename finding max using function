@@ -1,0 +1,11 @@
+3 start
+result:0 two:2
+start:6 n1:n1 
+      6 n2:n2
+fun:3 max stop:9
+max:5 n1 n2 true 
+    7 n1 result
+fun1:1 return two return
+     3 return:fun
+true:7 n2 result
+     3 fun1 
