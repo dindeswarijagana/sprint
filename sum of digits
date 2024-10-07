@@ -1,0 +1,16 @@
+3 5 num:300 result:0  
+3 start rem:0 quo:0 n:0 x:10 zero:0
+start:7 num n
+7 n rem
+comp:5 rem x comp1 3 add 
+comp1:4 rem zero stop
+1 result rem result
+7 quo n
+2 quo quo quo
+3 15
+add:1 quo add quo
+sub:2 rem x rem
+3 comp
+stop:9
+       
+
