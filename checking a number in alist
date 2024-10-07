@@ -1,0 +1,15 @@
+3 7 
+first_element:e1 length:5 target:1 result:0 jump:3 start count:0 one:1 
+start:7 first_element current_ele
+jil:5 count length jeq stop:9 
+jeq:4 target current_ele:0 true
+add:1 current_ele add current_ele
+1 count one count
+3 jil
+true:7 one result
+3 stop
+e1:10 e2:20 e3:50 e4:3 e5:5
+
+
+
+
