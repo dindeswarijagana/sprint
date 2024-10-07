@@ -1,0 +1,33 @@
+3 5 
+first_element:e1 length:4  
+jump:3 sub
+count:0 one:1 length1:0 temp:0 loop_count:0 
+sub:2 length one length1
+start:7 first_element current_ele 
+jil:5 count length1 true stop:9
+true:7 current_ele:0 temp
+add:1 current_ele add x 
+cond1:5 loop_count length1 change 3 temp_action
+change:7 current_ele current_ele_copy
+7 x:0 current_ele_copy:0
+7 x current_ele
+addx:1 x addx x
+1 loop_count addx loop_count
+3 cond1
+temp_action:2 loop_count loop_count loop_count
+2 x addx x
+7 x t1
+7 temp t1:x
+2 length1 addx length1
+3 start
+e1:10 5 6 8
+ 
+
+
+
+
+
+
+
+
+
